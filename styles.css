@@ -73,7 +73,7 @@ section[id]{
   position: absolute;
   width: 55%;
   max-width: 980px;
-  right: 7%;
+  right: 3%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
