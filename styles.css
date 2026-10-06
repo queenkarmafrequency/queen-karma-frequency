@@ -159,21 +159,3 @@ section[id]{
   gap: 18px;
   flex-wrap: nowrap;
 }
-
-
-/* FIX HOME FEATURE SECTION WIDTHS */
-.split {
-  width: min(1180px, 92%);
-  margin-left: auto;
-  margin-right: auto;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.split .feature {
-  width: 100%;
-  min-width: 0;
-}
-
-.split .feature p {
-  max-width: 520px;
-}
