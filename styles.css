@@ -66,3 +66,45 @@ section[id]{
     margin-top:35px;
   }
 }
+/* QKF METALLIC GOLD PALETTE */
+:root{
+  --gold:#B8892E;
+  --gold2:#D8B45A;
+  --gold-deep:#8A621F;
+}
+
+.hero h1 span,
+.script,
+.section-title,
+.book-copy h2,
+.shop-copy h2,
+.pillar h3{
+  color:#D8B45A;
+}
+
+.btn.primary,
+.btn.gold{
+  background:linear-gradient(135deg,#8A621F 0%,#D8B45A 52%,#B8892E 100%);
+  border-color:#B8892E;
+  color:#08040d;
+}
+
+.btn.secondary{
+  border-color:#B8892E;
+}
+
+.deck,
+.book-cover{
+  border-color:#B8892E;
+  box-shadow:10px 10px 0 rgba(138,98,31,.22);
+}
+
+.candle{
+  border-color:#B8892E;
+  background:linear-gradient(90deg,#6F4916,#B8892E,#D8B45A,#8A621F);
+}
+
+.flame{
+  background:#D8B45A;
+  box-shadow:0 0 24px rgba(216,180,90,.75);
+}
