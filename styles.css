@@ -102,21 +102,21 @@ section[id]{
 }
 
 .brand-queen {
-  font-size: clamp(54px, 4.2vw, 78px);
+  font-size: clamp(48px, 3.7vw, 68px);
   letter-spacing: 3px;
   color: #E7C65A;
 }
 
 .brand-karma {
-  font-size: clamp(54px, 4.2vw, 78px);
+  font-size: clamp(48px, 3.7vw, 68px);
   letter-spacing: 6px;
   color: #E7C65A;
   margin-top: 8px;
 }
 
 .brand-frequency {
-  font-size: clamp(42px, 3.5vw, 64px);
-  letter-spacing: 5px;
+  font-size: clamp(38px, 3vw, 54px);
+  letter-spacing: 4px;
   color: #D9A8FF;
   margin-top: 10px;
 }
