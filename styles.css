@@ -89,60 +89,50 @@ section[id]{
 
 /* Main brand name */
 .brand-title {
-  margin: 0 0 18px;
-  line-height: 0.92;
+    margin: 0 0 20px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.95;
+    text-shadow: 0 4px 20px rgba(0,0,0,.65);
 }
 
 .brand-title span {
-  display: block;
+    display: block;
+    font-weight: 400;
 }
 
-/* QUEEN */
 .brand-queen {
-  font-family: "Allura", cursive;
-  font-weight: 400;
-  text-transform: none;
-  font-size: clamp(58px, 4.4vw, 82px);
-  letter-spacing: 0;
-  color: #E7C65A;
-  line-height: 0.9;
+    font-size: clamp(58px, 5vw, 88px);
+    color: #E7C65A;
+    letter-spacing: 2px;
 }
 
-/* KARMA */
 .brand-karma {
-  font-family: "DM Serif Display", Georgia, serif;
-  font-weight: 400;
-  font-size: clamp(52px, 4vw, 74px);
-  letter-spacing: 5px;
-  color: #E7C65A;
-  line-height: 0.95;
-  margin-top: 10px;
+    font-size: clamp(58px, 5vw, 88px);
+    color: #E7C65A;
+    letter-spacing: 5px;
+    margin-top: 4px;
 }
 
-/* FREQUENCY */
 .brand-frequency {
-  font-family: "DM Serif Display", Georgia, serif;
-  font-weight: 400;
-  font-size: clamp(40px, 3.2vw, 58px);
-  letter-spacing: 4px;
-  line-height: 1;
-  margin-top: 10px;
-  color: #E7C65A;
-}
+    font-size: clamp(32px, 3vw, 52px);
+    letter-spacing: 8px;
+    margin-top: 8px;
 
-  background: linear-gradient(
-    90deg,
-    #A64CC9 0%,
-    #C86BE8 35%,
-    #E0A2F2 50%,
-    #C86BE8 65%,
-    #A64CC9 100%
-  );
+    background: linear-gradient(
+        90deg,
+        #A64CC9 0%,
+        #C86BE8 35%,
+        #E0A2F2 50%,
+        #C86BE8 65%,
+        #A64CC9 100%
+    );
 
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 /* Tagline */
