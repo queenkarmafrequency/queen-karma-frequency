@@ -135,11 +135,6 @@ section[id]{
     color: transparent;
 }
 
-.brand-frequency .frequency-q {
-  display: inline-block;
-  transform: translateX(-5px);
-}
-
 /* Tagline */
 .hero-copy .script {
   max-width: 850px;
