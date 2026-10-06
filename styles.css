@@ -99,3 +99,13 @@ section[id]{
   display: none;
 }
 
+/* QKF HOMEPAGE TEXT POSITION */
+.hero-copy {
+  position: absolute;
+  width: 44%;
+  max-width: 720px;
+  right: 7%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
