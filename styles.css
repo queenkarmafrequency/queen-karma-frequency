@@ -124,3 +124,52 @@ section[id]{
   left:3%;
   bottom:5%;
 }
+
+
+/* QKF HOMEPAGE BACKGROUND */
+.hero {
+  min-height: 780px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 90px 8%;
+  background-image:
+    linear-gradient(90deg, rgba(5,3,8,0.05) 0%, rgba(5,3,8,0.10) 45%, rgba(5,3,8,0.72) 100%),
+    url("qkf-home-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Remove the separate hero picture */
+.hero .altar {
+  display: none;
+}
+
+/* Keep homepage wording on the right */
+.hero-copy {
+  width: 48%;
+  max-width: 720px;
+  margin-left: auto;
+  position: relative;
+  z-index: 3;
+}
+
+/* Mobile */
+@media (max-width: 850px) {
+  .hero {
+    min-height: 720px;
+    padding: 100px 7% 60px;
+    align-items: flex-end;
+    background-position: 35% center;
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 100%;
+    background: rgba(5,3,8,0.72);
+    padding: 24px;
+    border-radius: 8px;
+  }
+}
