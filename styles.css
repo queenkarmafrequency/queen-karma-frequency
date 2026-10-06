@@ -90,9 +90,9 @@ section[id]{
 /* Main brand name */
 .brand-title {
     margin: 0 0 20px;
-    font-family: "Allura", cursive;
+    font-family: "Cormorant Garamond", Georgia, serif;
     font-weight: 400;
-    text-transform: none;
+    text-transform: uppercase;
     line-height: 0.95;
     text-shadow: 0 4px 20px rgba(0,0,0,.65);
 }
