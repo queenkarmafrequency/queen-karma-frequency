@@ -121,10 +121,20 @@ font-weight: 400;
 
 .brand-frequency {
   font-family: "DM Serif Display", Georgia, serif;
-font-weight: 400;
+  font-weight: 400;
   font-size: clamp(38px, 3vw, 54px);
   letter-spacing: 4px;
-  color: #D9A8FF;
+  background: linear-gradient(
+    90deg,
+    #A64CC9 0%,
+    #C86BE8 35%,
+    #E0A2F2 50%,
+    #C86BE8 65%,
+    #A64CC9 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-top: 10px;
 }
 
