@@ -71,9 +71,9 @@ section[id]{
 /* QKF HOMEPAGE HERO CONTENT */
 .hero-copy {
   position: absolute;
-  width: 44%;
+  width: 40%;
   max-width: 720px;
-  right: 4%;
+  right: 1%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
