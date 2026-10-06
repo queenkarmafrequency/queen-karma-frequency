@@ -135,6 +135,11 @@ section[id]{
     color: transparent;
 }
 
+.frequency-q {
+  display: inline-block;
+  transform: translateX(-5px);
+}
+
 /* Tagline */
 .hero-copy .script {
   max-width: 850px;
