@@ -80,13 +80,35 @@ section[id]{
 }
 
 /* Main brand name */
-.hero-copy h1 {
-  margin: 0 0 28px;
-  line-height: 0.95;
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  font-size: clamp(58px, 5vw, 88px);
-  text-shadow: 0 4px 20px rgba(0,0,0,.65);
+.brand-title {
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 0 4px 20px rgba(0,0,0,.65);
+}
+
+.brand-title span {
+    display: block;
+}
+
+.brand-queen {
+    font-size: clamp(58px, 5vw, 88px);
+    color: #E7C65A;
+    letter-spacing: 2px;
+}
+
+.brand-karma {
+    font-size: clamp(58px, 5vw, 88px);
+    color: #E7C65A;
+    letter-spacing: 5px;
+    margin-top: 4px;
+}
+
+.brand-frequency {
+    font-size: clamp(32px, 3vw, 52px);
+    color: #D9A8FF;
+    letter-spacing: 8px;
+    margin-top: 8px;
 }
 
 
