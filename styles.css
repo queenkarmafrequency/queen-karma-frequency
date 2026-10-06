@@ -103,16 +103,16 @@ section[id]{
 
 .brand-queen {
   font-family: "Allura", cursive;
-font-weight: 400;
-text-transform: none;
+  font-weight: 400;
+  text-transform: none;
   font-size: clamp(48px, 3.7vw, 68px);
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   color: #E7C65A;
 }
 
 .brand-karma {
   font-family: "DM Serif Display", Georgia, serif;
-font-weight: 400;
+  font-weight: 400;
   font-size: clamp(48px, 3.7vw, 68px);
   letter-spacing: 6px;
   color: #E7C65A;
@@ -126,18 +126,17 @@ font-weight: 400;
   letter-spacing: 4px;
   background: linear-gradient(
     90deg,
-    #A64CC9 0%,
+    #9A4FC4 0%,
     #C86BE8 35%,
     #E0A2F2 50%,
     #C86BE8 65%,
-    #A64CC9 100%
+    #9A4FC4 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   margin-top: 10px;
 }
-
 
 
 /* Tagline */
