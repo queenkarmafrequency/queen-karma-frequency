@@ -90,52 +90,57 @@ section[id]{
 /* Main brand name */
 .brand-title {
   margin: 0 0 18px;
- font-family: "Italiana", Georgia, serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 0.86;
+  line-height: 0.92;
 }
 
 .brand-title span {
   display: block;
-  font-weight: 400;
 }
 
+/* QUEEN */
 .brand-queen {
   font-family: "Allura", cursive;
   font-weight: 400;
   text-transform: none;
-  font-size: clamp(48px, 3.7vw, 68px);
-  letter-spacing: 1px;
+  font-size: clamp(58px, 4.4vw, 82px);
+  letter-spacing: 0;
   color: #E7C65A;
+  line-height: 0.9;
 }
 
+/* KARMA */
 .brand-karma {
   font-family: "DM Serif Display", Georgia, serif;
   font-weight: 400;
-  font-size: clamp(48px, 3.7vw, 68px);
-  letter-spacing: 6px;
+  font-size: clamp(52px, 4vw, 74px);
+  letter-spacing: 5px;
   color: #E7C65A;
-  margin-top: 8px;
+  line-height: 0.95;
+  margin-top: 10px;
 }
 
+/* FREQUENCY */
 .brand-frequency {
   font-family: "DM Serif Display", Georgia, serif;
   font-weight: 400;
-  font-size: clamp(38px, 3vw, 54px);
+  font-size: clamp(40px, 3.2vw, 58px);
   letter-spacing: 4px;
+  line-height: 1;
+  margin-top: 10px;
+
   background: linear-gradient(
     90deg,
-    #9A4FC4 0%,
+    #A64CC9 0%,
     #C86BE8 35%,
     #E0A2F2 50%,
     #C86BE8 65%,
-    #9A4FC4 100%
+    #A64CC9 100%
   );
+
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
-  margin-top: 10px;
 }
 
 
