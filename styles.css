@@ -135,7 +135,7 @@ section[id]{
     color: transparent;
 }
 
-.frequency-q {
+.brand-frequency .frequency-q {
   display: inline-block;
   transform: translateX(-5px);
 }
