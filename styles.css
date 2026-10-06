@@ -108,3 +108,19 @@ section[id]{
   background:#D8B45A;
   box-shadow:0 0 24px rgba(216,180,90,.75);
 }
+
+/* QKF NEW HERO IMAGE */
+.hero-image{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  display:block;
+}
+
+.altar{
+  width:42%;
+  height:72%;
+  left:3%;
+  bottom:5%;
+}
