@@ -102,12 +102,17 @@ section[id]{
 }
 
 .brand-queen {
+  font-family: "Allura", cursive;
+font-weight: 400;
+text-transform: none;
   font-size: clamp(48px, 3.7vw, 68px);
   letter-spacing: 3px;
   color: #E7C65A;
 }
 
 .brand-karma {
+  font-family: "DM Serif Display", Georgia, serif;
+font-weight: 400;
   font-size: clamp(48px, 3.7vw, 68px);
   letter-spacing: 6px;
   color: #E7C65A;
@@ -115,6 +120,8 @@ section[id]{
 }
 
 .brand-frequency {
+  font-family: "DM Serif Display", Georgia, serif;
+font-weight: 400;
   font-size: clamp(38px, 3vw, 54px);
   letter-spacing: 4px;
   color: #D9A8FF;
