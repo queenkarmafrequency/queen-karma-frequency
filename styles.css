@@ -119,6 +119,7 @@ section[id]{
     font-size: clamp(32px, 3vw, 52px);
     letter-spacing: 11px;
     margin-top: 8px;
+    margin-left: 18px;
 
     background: linear-gradient(
         90deg,
