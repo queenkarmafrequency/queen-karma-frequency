@@ -99,13 +99,62 @@ section[id]{
   display: none;
 }
 
-/* QKF HOMEPAGE TEXT POSITION */
+/* QKF HOMEPAGE HERO CONTENT */
 .hero-copy {
   position: absolute;
-  width: 44%;
-  max-width: 720px;
-  right: 7%;
+  width: 48%;
+  max-width: 860px;
+  right: 3%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
+}
+
+/* Main brand name */
+.hero-copy h1 {
+  margin: 0 0 18px;
+  line-height: 0.82;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  font-size: clamp(64px, 6vw, 108px);
+  text-shadow: 0 4px 20px rgba(0,0,0,.65);
+}
+
+.hero-copy h1 span,
+.hero-copy h1 strong {
+  color: #E7C65A;
+  font-weight: 600;
+}
+
+.hero-copy h1 strong {
+  display: inline;
+}
+
+.hero-copy h1 {
+  color: #D9A8FF;
+}
+
+/* Tagline */
+.hero-copy .script {
+  max-width: 850px;
+  margin: 24px 0 24px;
+  font-size: clamp(32px, 3vw, 54px);
+  line-height: 1.15;
+  color: #E7C65A;
+}
+
+/* Supporting sentence */
+.hero-copy .lead {
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 1.45;
+  margin-bottom: 25px;
+}
+
+/* Keep buttons together */
+.hero-copy .actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: nowrap;
 }
