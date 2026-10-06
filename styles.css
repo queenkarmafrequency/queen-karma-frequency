@@ -71,47 +71,54 @@ section[id]{
 /* QKF HOMEPAGE HERO CONTENT */
 .hero-copy {
   position: absolute;
-  width: 55%;
-  max-width: 980px;
-  right: 3%;
+  width: 44%;
+  max-width: 720px;
+  right: 4%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
 }
 
+/* Welcome line */
+.hero-copy .eyebrow {
+  margin: 0 0 12px;
+  font-size: 13px;
+  letter-spacing: 5px;
+  color: #D4AF37;
+}
+
 /* Main brand name */
 .brand-title {
-    margin: 0 0 20px;
-    text-transform: uppercase;
+  margin: 0 0 18px;
   font-family: "Cormorant Garamond", Georgia, serif;
-font-weight: 400;
-    line-height: 1;
-    text-shadow: 0 4px 20px rgba(0,0,0,.65);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.86;
 }
 
 .brand-title span {
-    display: block;
+  display: block;
   font-weight: 400;
 }
 
 .brand-queen {
-    font-size: clamp(52px, 4.4vw, 78px);
-    color: #E7C65A;
-    letter-spacing: 5px;
+  font-size: clamp(54px, 4.2vw, 78px);
+  letter-spacing: 3px;
+  color: #E7C65A;
 }
 
 .brand-karma {
-    font-size: clamp(52px, 4.4vw, 78px);
-    color: #E7C65A;
-    letter-spacing: 7px;
-    margin-top: 8px;
+  font-size: clamp(54px, 4.2vw, 78px);
+  letter-spacing: 6px;
+  color: #E7C65A;
+  margin-top: 8px;
 }
 
 .brand-frequency {
-    font-size: clamp(28px, 2.5vw, 44px);
-    color: #D9A8FF;
-    letter-spacing: 10px;
-    margin-top: 12px;
+  font-size: clamp(42px, 3.5vw, 64px);
+  letter-spacing: 5px;
+  color: #D9A8FF;
+  margin-top: 10px;
 }
 
 
