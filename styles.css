@@ -71,9 +71,9 @@ section[id]{
 /* QKF HOMEPAGE HERO CONTENT */
 .hero-copy {
   position: absolute;
-  width: 52%;
-  max-width: 900px;
-  right: 2%;
+  width: 55%;
+  max-width: 980px;
+  right: 7%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
@@ -83,32 +83,35 @@ section[id]{
 .brand-title {
     margin: 0 0 20px;
     text-transform: uppercase;
+  font-family: "Cormorant Garamond", Georgia, serif;
+font-weight: 400;
     line-height: 1;
     text-shadow: 0 4px 20px rgba(0,0,0,.65);
 }
 
 .brand-title span {
     display: block;
+  font-weight: 400;
 }
 
 .brand-queen {
-    font-size: clamp(58px, 5vw, 88px);
+    font-size: clamp(52px, 4.4vw, 78px);
     color: #E7C65A;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .brand-karma {
-    font-size: clamp(58px, 5vw, 88px);
+    font-size: clamp(52px, 4.4vw, 78px);
     color: #E7C65A;
-    letter-spacing: 5px;
-    margin-top: 4px;
+    letter-spacing: 7px;
+    margin-top: 8px;
 }
 
 .brand-frequency {
-    font-size: clamp(32px, 3vw, 52px);
+    font-size: clamp(28px, 2.5vw, 44px);
     color: #D9A8FF;
-    letter-spacing: 8px;
-    margin-top: 8px;
+    letter-spacing: 10px;
+    margin-top: 12px;
 }
 
 
