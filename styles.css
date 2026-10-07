@@ -184,7 +184,7 @@ section[id]{
   text-align: center;
 }
 
-.feature {
+.split .feature {
   flex-direction: column;
   align-items: center;
   justify-content: center;
