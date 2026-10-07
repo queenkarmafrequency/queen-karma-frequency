@@ -159,3 +159,19 @@ section[id]{
   gap: 18px;
   flex-wrap: nowrap;
 }
+
+/* RESTORE LATEST SECTION SIZE */
+.section.latest {
+  max-width: 1180px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.latest-grid {
+  grid-template-columns: 2fr 1fr;
+}
+
+.video-card {
+  min-height: 330px;
+}
