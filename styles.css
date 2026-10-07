@@ -175,15 +175,3 @@ section[id]{
 .video-card {
   min-height: 330px;
 }
-/* FIX TODAY'S MESSAGE + CARDS DOWN ONLY */
-section.split:first-of-type {
-  width: min(1180px, 92%);
-  margin-left: auto;
-  margin-right: auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-section.split:first-of-type .feature {
-  width: 100%;
-  min-width: 0;
-}
