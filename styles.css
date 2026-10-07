@@ -177,3 +177,16 @@ section[id]{
   text-align: center;
   width: 100%;
 }
+
+/* MOBILE LAYOUT */
+@media (max-width: 768px) {
+  
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .feature {
+    min-height: auto;
+    padding: 40px 24px;
+  }
+}
