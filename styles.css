@@ -178,4 +178,9 @@ section[id]{
   width: 100%;
 }
 
+.video-copy b {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
