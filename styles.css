@@ -139,7 +139,7 @@ section[id]{
 .hero-copy .script {
   max-width: 850px;
   margin: 24px 0 24px;
-  font-size: clamp(26px, 2.5vw, 40px);
+  font-size: clamp(32px, 3vw, 54px);
   line-height: 1.15;
   color: #E7C65A;
 }
@@ -165,7 +165,7 @@ section[id]{
   display: block;
   font-family: Allura;
   font-size: clamp(36px, 3.5vw, 58px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
   white-space: normal;
   text-align: center;
@@ -175,7 +175,7 @@ section[id]{
   display: block;
   font-family: Allura;
   font-size: clamp(40px, 4vw, 64px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
   text-align: center;
   width: 100%;
