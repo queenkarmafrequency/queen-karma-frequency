@@ -90,8 +90,8 @@ section[id]{
 /* Main brand name */
 .brand-title {
     margin: 0 0 20px;
-    font-family: "Cormorant Garamond", Georgia, serif;
-    font-weight: 400;
+    font-family: Georgia, serif;
+    font-weight: 700;
     text-transform: uppercase;
     line-height: 0.95;
     text-shadow: 0 4px 20px rgba(0,0,0,.65);
@@ -139,7 +139,7 @@ section[id]{
 .hero-copy .script {
   max-width: 850px;
   margin: 24px 0 24px;
-  font-size: clamp(32px, 3vw, 54px);
+ font-size: clamp(42px, 4vw, 68px);
   line-height: 1.15;
   color: #E7C65A;
 }
@@ -163,7 +163,7 @@ section[id]{
 
 .hero h1 .brand-top {
   display: block;
-  font-family: Allura;
+  font-family: Georgia, serif;
   font-size: clamp(36px, 3.5vw, 58px);
   font-weight: 600;
   line-height: 1.25;
@@ -173,7 +173,7 @@ section[id]{
 
 .hero h1 .brand-bottom {
   display: block;
-  font-family: Allura;
+  font-family: Georgia, serif;
   font-size: clamp(40px, 4vw, 64px);
   font-weight: 600;
   line-height: 1.2;
