@@ -139,7 +139,8 @@ section[id]{
 .hero-copy .script {
   max-width: 850px;
   margin: 24px 0 24px;
- font-size: clamp(42px, 4vw, 68px);
+ font-size: clamp(20px, 2vw, 32px);
+  white-space: nowrap;
   line-height: 1.15;
   color: #E7C65A;
 }
@@ -163,7 +164,7 @@ section[id]{
 
 .hero h1 .brand-top {
   display: block;
-  font-family: Georgia, serif;
+ font-family: "Cormorant Garamond", Georgia, serif;
  font-size: clamp(48px, 4.5vw, 76px);
   font-weight: 400;
   line-height: 1.25;
@@ -173,7 +174,7 @@ section[id]{
 
 .hero h1 .brand-bottom {
   display: block;
-  font-family: Georgia, serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(50px, 5vw, 80px);
   font-weight: 400;
   line-height: 1.2;
