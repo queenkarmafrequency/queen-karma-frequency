@@ -139,7 +139,7 @@ section[id]{
 .hero-copy .script {
   max-width: 850px;
   margin: 24px 0 24px;
-  font-size: clamp(32px, 3vw, 54px);
+  font-size: clamp(42px, 4vw, 72px);
   line-height: 1.15;
   color: #E7C65A;
 }
